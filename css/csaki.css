@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    display: border-box;
+}
+
+header {
+    background-color: rgba(240, 220, 105, 0.29);
+}
