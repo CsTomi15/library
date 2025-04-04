@@ -19,6 +19,35 @@ header img {
     align-self: flex-start;
 }
 
+.books {
+    padding: 50px;
+    height: 100%;
+}
+
+#b1 {
+    background-image: url('../images/TorchOfKnowlage.jpg');
+}
+
+#b2 {
+    background-image: url('../images/2EdgedSword.jpg');
+}
+
+#b3 {
+    background-image: url('../images/truth.jpg');
+}
+
+#b4 {
+    background-image: url('../images/tudasKertje.jpg');
+}
+
+#b5 {
+    background-image: url('../images/path.jpg');
+}
+
+#b6 {
+    background-image: url('../images/cosmos.jpg');
+}
+
 @media screen and (max-width: 800px) {
     * { margin: 100px;}
 }
