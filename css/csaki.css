@@ -1,53 +1,81 @@
+@font-face {
+    font-family: greek;
+    src: url(Balhattan.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
     display: border-box;
+    font-family: greek;
 }
 
 header {
     background-color: rgba(240, 220, 105, 0.29);
     display: flex;
-
-}
-
-header div {
-    align-self: flex-end;
-}
-
-header img {
-    width: 100px;
-    align-self: flex-start;
-}
-
-.books {
-    padding: 50px;
-    height: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 #b1 {
-    background-image: url('../images/TorchOfKnowlage.jpg');
+    background-image: url("TorchOfKnowlage.jpg");
 }
 
 #b2 {
-    background-image: url('../images/2EdgedSword.jpg');
+    background-image: url('2EdgedSword.jpg');
 }
 
 #b3 {
-    background-image: url('../images/truth.jpg');
+    background-image: url('truth.jpg');
 }
 
 #b4 {
-    background-image: url('../images/tudasKertje.jpg');
+    background-image: url('tudasKertje.jpg');
 }
 
 #b5 {
-    background-image: url('../images/path.jpg');
+    background-image: url('path.jpg');
 }
 
 #b6 {
-    background-image: url('../images/cosmos.jpg');
+    background-image: url('cosmos.jpg');
 }
 
 @media screen and (max-width: 800px) {
-    * { margin: 100px;}
+
+}
+
+img {
+    max-width: 120px;
+}
+
+.more {
+    width: 91px;
+    height: 13px;
+    background-color: black;
+    margin: 14px 0;
+}
+
+.more1 {
+    margin-right: 20px;
+}
+
+.name {
+    margin: 15px 0;
+    font-size: 5em;
+}
+
+.ajanlat {
+    text-align: center;
+    padding: 20px;
+    margin: 5px 0; 
+    background-color: aquamarine;
+}
+
+.ajanlat h1 {
+    font-size: 3em;
+}
+
+.ajanlat h2 {
+    font-size: 2em;
 }
