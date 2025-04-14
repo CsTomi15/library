@@ -17,114 +17,115 @@ header {
     background-color: rgba(240, 220, 105, 0.29);
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
 }
 
 #b1 {
-    background-image: url("TorchOfKnowlage.jpg");
-}
-
-#b2 {
-    background-image: url('2EdgedSword.jpg');
-}
-
-#b3 {
-    background-image: url('truth.jpg');
-}
-
-#b4 {
-    background-image: url('tudasKertje.jpg');
-}
-
-#b5 {
-    background-image: url('path.jpg');
-}
-
-#b6 {
-    background-image: url('cosmos.jpg');
-}
-
-.books {
-    color: white;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-}
-
-#b1 {
-    width: 30vw;
-    min-height: 600px;
-    margin: 10px;
     background-image: url('../images/TorchOfKnowlage.jpg');
-    background-repeat: no-repeat;
 }
 
 #b2 {
-    width: 30vw;
-    min-height: 600px;
-    margin: 10px;
     background-image: url('../images/2EdgedSword.jpg');
-    background-repeat: no-repeat;
+
 }
 
 #b3 {
-    width: 30vw;
-    min-height: 600px;
-    margin: 10px;
     background-image: url('../images/truth.jpg');
-    background-repeat: no-repeat;
 }
 
 #b4 {
     background-image: url('../images/tudasKertje.jpg');
-    background-repeat: no-repeat;
 }
 
 #b5 {
     background-image: url('../images/path.jpg');
-    background-repeat: no-repeat;
 }
 
 #b6 {
     background-image: url('../images/cosmos.jpg');
+}
+
+.book {
     background-repeat: no-repeat;
 }
 
-#akcios {
-
-}
-
-hr {
-    display: none;
-}
-
 @media screen and (max-width: 800px) {
-    hr {
-        display: block;
+
+    img {
+        display: none;
     }
+
+    .book {
+        margin: 10px auto;
+        max-width: 100vw;
+        min-height: 500px;
+    }
+
+    .name {
+        margin: 15px auto;
+    }
+
+    .dark {
+        position: absolute;
+        bottom: 0;
+    }
+
 }
 
-img {
-    max-width: 120px;
+@media screen and (min-width: 801px){
+
+    img {
+        max-width: 120px;
+    }
+
+    .books {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+
+    .book {
+        width: 30vw;
+        min-height: 600px;
+        margin: 10px;
+    }
+
+    .more {
+        width: 91px;
+        height: 13px;
+        background-color: black;
+        margin: 14px 0;
+    }
+
+    .more1 {
+        margin-right: 20px;
+        margin-top: 15px;
+    }
+
+    .name {
+        margin: 15px 0;
+    }
+
+    .dark {
+        margin-top: 100%;
+        width: 100%;
+        height: 100px;
+    }
+
 }
 
-.more {
-    width: 91px;
-    height: 13px;
-    background-color: black;
-    margin: 14px 0;
-}
-
-.more1 {
-    margin-right: 20px;
+.books {
+    color: white;
 }
 
 .name {
-    margin: 15px 0;
     font-size: 5em;
 }
 
-.ajanlat {
+.ajanlat, .kinalat {
     text-align: center;
     padding: 20px;
     margin: 5px 0; 
@@ -140,10 +141,17 @@ img {
 }
 
 .dark {
-    margin-top: 100%;
     background-color: #3c3d37;
-    width: 100%;
-    height: 100px;
     opacity: 0.8;
     text-align: center;
+}
+
+.kinalat {
+    font-size: 2em;
+}
+
+#footer {
+    margin: 1% 0 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
 }
