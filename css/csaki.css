@@ -179,3 +179,8 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #eee;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
