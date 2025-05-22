@@ -12,12 +12,6 @@ body {
     background-color: #eee;
 }
 
-header {
-    background-color: rgba(240, 220, 105, 0.29);
-    display: flex;
-    flex-wrap: nowrap;
-}
-
 #b1 {
     background-image: url('../images/kep5.jpg');
 }
@@ -172,13 +166,6 @@ header {
 
 .feher {
     color: white;
-}
-
-#footer {
-    margin: 1% 0 10px 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #ddd;
-    padding: 0 0 0 10px;
 }
 
 a {
