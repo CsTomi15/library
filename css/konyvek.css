@@ -12,12 +12,6 @@ body {
     background-color: #eee;
 }
 
-header {
-    background-color: rgba(240, 220, 105, 0.29);
-    display: flex;
-    flex-wrap: nowrap;
-}
-
 #b1 {
     background-image: url('../images/kep5.jpg');
 }
@@ -174,13 +168,13 @@ header {
     color: white;
 }
 
-#footer {
-    margin: 1% 0 10px 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #eee;
-}
-
 a {
     color: white;
     text-decoration: none;
+}
+
+a img {
+    margin-top: 10px;
+    width: 50px;
+    height: 100%;
 }

@@ -1,0 +1,5 @@
+header {
+    background-color: rgba(240, 220, 105, 0.29);
+    display: flex;
+    flex-wrap: nowrap;
+}
